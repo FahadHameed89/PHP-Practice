@@ -1,5 +1,5 @@
 <?php 
-    $pageTitle = 'Basic PHP Webpage bruh';
+    $pageTitle = 'About Page';
 
 
 ?>
