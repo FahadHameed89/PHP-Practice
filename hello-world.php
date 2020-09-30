@@ -103,3 +103,14 @@ while($x <= 5) {
   echo "\nThe number is: $x";
   $x++;
 }
+
+// Functions
+
+function addition ( $num1, $num2)
+{
+    return ($num1+$num2);    
+}
+
+echo "\n";
+
+echo addition(2, 3);
