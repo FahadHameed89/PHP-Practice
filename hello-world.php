@@ -66,3 +66,11 @@ $object->cohort = 4.2;              // Assign a cohort #
 $object->year = 2020;               // Assign a Year
 
 echo "\n\n$object->name" . $object->cohort . $object->year;
+
+// Null
+$myNullVar = NULL; // Case insensitive... Pick a style and stick to it. 
+
+// Loops Review
+for ($initial = 0; $initial <= 5; $initial++ ) {
+    echo "\nThe current value of the counter is: $initial";
+}
