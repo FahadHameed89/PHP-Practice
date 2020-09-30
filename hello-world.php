@@ -22,5 +22,5 @@ echo "\n$studentName1";
 
 echo "\nSome people are $studentName1, $studentName2, and $studentName3";
 
-?>
+echo "\n\n This string is being " . 'concatenated!';
 
