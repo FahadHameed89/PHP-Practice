@@ -111,6 +111,9 @@ function addition ( $num1, $num2)
     return ($num1+$num2);    
 }
 
-echo "\n";
+echo "\n" . addition(2, 3);
+echo "\n" . addition("2", 3);
+echo "\n" . addition("12.5", 3);
 
-echo addition(2, 3);
+$myFunctionResult = addition( 2, 2);
+echo "\nResult from Variable: $myFunctionResult";
