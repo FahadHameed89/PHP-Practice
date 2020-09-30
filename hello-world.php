@@ -70,7 +70,36 @@ echo "\n\n$object->name" . $object->cohort . $object->year;
 // Null
 $myNullVar = NULL; // Case insensitive... Pick a style and stick to it. 
 
-// Loops Review
+// Loops Review -> FOR LOOP
 for ($initial = 0; $initial <= 5; $initial++ ) {
     echo "\nThe current value of the counter is: $initial";
+}
+
+$heroes = array("Hydra", "Zagreus", "Thesius", "The Minotaur");
+
+foreach ($heroes as $value) {
+  echo "\n$value";
+}
+
+// Associative Array -> FOREACH
+$students = [
+    'Danish' => 'Reading',
+    'Eboka' => 'Reading',
+    'Birm' => 'Watching Tennis',
+    'Adolf' => 'Playing Music',
+    'Kenji' => 'Rock Climbing',
+   'Fahad'  => 'Gaming' 
+];
+
+foreach ($students as $name => $hobby) {
+    echo "\n$name has a hobby known as $hobby";
+  }
+
+// While Loop
+
+$x = 1;
+
+while($x <= 5) {
+  echo "\nThe number is: $x";
+  $x++;
 }
