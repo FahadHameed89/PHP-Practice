@@ -14,8 +14,13 @@ echo "Hello World...in PHP!";
  * Also, don't start them with numbers or special characters...!
  */
 
-$studentName = "\n\nFahad";
+$studentName1 = "Fahad";
+$studentName2 = "Zagreus";
+$studentName3 = "Jordash";
 
-echo $studentName;
+echo "\n$studentName1";
+
+echo "\nSome people are $studentName1, $studentName2, and $studentName3";
+
 ?>
 
